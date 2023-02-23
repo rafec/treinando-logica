@@ -2,4 +2,4 @@ function saudacao() {
     return "Oi! Eu sou o Goku!"
 }
 
-saudacao()
+console.log(saudacao())
