@@ -1,7 +1,11 @@
-function repeticao() {
-   for (let i = 0; i <= 20; i++) {
+const prompt = require("prompt-sync")()
+
+function repeticao(num) {
+   for (let i = 0; i <= num; i++) {
       console.log(i)
    }
 }
 
-repeticao()
+const num = prompt("Digite um número: ")
+
+repeticao(num)
