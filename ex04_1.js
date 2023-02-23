@@ -1,6 +1,9 @@
 const prompt = require("prompt-sync")()
 
 function multiplica(num1, num2){
+    console.log("1º número: ", num1)
+    console.log("2º número: ", num2)
+
     console.log("A multiplicação dos dois números é: ", num1 * num2)
 }
 
